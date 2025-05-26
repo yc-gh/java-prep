@@ -10,8 +10,6 @@ on:
         description: "Force sync all rows from sheet"
         required: false
         default: "false"
-  schedule:
-    - cron: "0 */6 * * *" # Runs every 6 hours
 
 jobs:
   sync:
